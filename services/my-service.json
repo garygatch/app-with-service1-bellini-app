@@ -1,0 +1,58 @@
+{
+  "type": "app-service",
+  "name": "my-service",
+  "description": "",
+  "singleton": true,
+  "variables": [
+    {
+      "name": "prop1",
+      "description": "",
+      "type": "property",
+      "value": ""
+    },
+    {
+      "name": "obj1",
+      "description": "",
+      "type": "object",
+      "properties": [
+        {
+          "name": "prop1",
+          "description": "",
+          "type": "property",
+          "value": ""
+        },
+        {
+          "name": "prop2",
+          "description": "",
+          "type": "property",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "name": "arr1",
+      "description": "",
+      "type": "array",
+      "children": []
+    },
+    {
+      "name": "fnc1",
+      "description": "",
+      "type": "method",
+      "body": "",
+      "invokeOnLoad": false,
+      "isAsync": false,
+      "returnType": {
+        "name": "any"
+      },
+      "parameters": [],
+      "watch": []
+    }
+  ],
+  "visible": [
+    "prop1",
+    "arr1",
+    "fnc1",
+    "obj1"
+  ]
+}
