@@ -11,25 +11,6 @@
       "value": ""
     },
     {
-      "name": "obj1",
-      "description": "",
-      "type": "object",
-      "properties": [
-        {
-          "name": "prop1",
-          "description": "",
-          "type": "property",
-          "value": ""
-        },
-        {
-          "name": "prop2",
-          "description": "",
-          "type": "property",
-          "value": ""
-        }
-      ]
-    },
-    {
       "name": "arr1",
       "description": "",
       "type": "array",
@@ -52,7 +33,6 @@
   "visible": [
     "prop1",
     "arr1",
-    "fnc1",
-    "obj1"
+    "fnc1"
   ]
 }
